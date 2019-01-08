@@ -9,7 +9,10 @@
     "deploy": "git subtree push --prefix dist origin master"
   },
   "dependencies": {
-    "vue": "^2.5.21"
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.3",
