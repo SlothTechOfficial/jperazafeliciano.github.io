@@ -11,8 +11,14 @@
         <div class="about-content">
           <ul class="items">
             <li v-for="(item, index) in information" :key="index">
-              <i :class="item.icon"></i>
-              <p class="item-description">{{ item.description }}</p>
+              <div class="row">
+                <div class="col-sm-1">
+                  <i :class="item.icon"></i>
+                </div>
+                <div class="col-sm-11">
+                  {{ item.description }}
+                </div>
+              </div>
             </li>
           </ul>
         </div>
