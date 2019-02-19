@@ -26,7 +26,7 @@ export default {
   data: function() {
     return {
       userName: 'Jonathan Peraza Feliciano',
-      description: 'I am a Full-Stack Software Engineer with experience for over 4 years. My expertise is to create and design Websites, Apps, Templates and more ...',
+      description: 'I am a Full-Stack Software Engineer with experience for over 6 years. My expertise is to create and design Websites, Apps, Templates and more ...',
     }
   }
 }
