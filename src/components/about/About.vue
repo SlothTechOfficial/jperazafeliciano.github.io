@@ -33,7 +33,6 @@
 
 <script>
 import Photo from '../../assets/images/coding-time.jpg'
-// TODO: create image for landing page
 
 export default {
   data: function() {
@@ -51,8 +50,7 @@ export default {
   },
   computed: {
     age: function() {
-      const currentYear = new Date().getFullYear();
-
+      const currentYear = new Date().getFullYear()
       return currentYear - this.year
     }
   }

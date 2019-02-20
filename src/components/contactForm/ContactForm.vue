@@ -53,9 +53,6 @@
             <div class="control">
               <input type="submit" class="button is-link is-rounded" value="Submit">
             </div>
-            <div class="control">
-              <button class="button is-text is-rounded">Cancel</button>
-            </div>
           </div>
         </form>
       </div>
