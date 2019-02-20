@@ -2,7 +2,7 @@
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#"> <!-- TODO: add resume link -->
-        RESUME
+        {{displayName}}
       </a>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -51,6 +51,17 @@
 
 <script>
 export default {
+  data: function() {
+    return {
+      userName: 'Jonathan Peraza Feliciano',
+    }
+  },
+  computed: {
+    displayName: function() {
+      const lastWordIndex = this.userName.lastIndexOf(' ')
+      return this.userName.substring(0, lastWordIndex)
+    }
+  }
 }
 </script>
 
