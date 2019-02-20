@@ -3,7 +3,10 @@
   class="hero is-primary-color is-fullheight"
   id="home"
   :style="{
-    backgroundImage: `linear-gradient(#3f51b5, rgba(63, 81, 181, 0.35)), url(${bgImage})`
+    backgroundImage: `
+      linear-gradient(#3f51b5, rgba(63, 81, 181, 0.35)),
+      url(${bgImage})
+    `
   }"
 >
   <div class="hero-body">
