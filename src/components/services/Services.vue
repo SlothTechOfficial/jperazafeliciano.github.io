@@ -28,9 +28,9 @@ export default {
   data: function() {
     return {
       services: [
-        { icon: 'fas fa-desktop', title: 'Web Design', description: 'Design your site according your section requirements, personal blogs, cms, landing pages.' },
-        { icon: 'fas fa-mobile-alt', title: 'Responsive', description: 'You don\'t need to pay for different devices designs, our projects includes mocks that can perfectly works on distinct devices.' },
-        { icon: 'fab fa-wordpress-simple', title: 'Integrations', description: 'We can take your ideas and integrates it with your current CMS.' },
+        { icon: 'fas fa-desktop', title: 'Web Design', description: 'Design your site according to your section requirements, personal blogs, cms, landing pages, etc...' },
+        { icon: 'fas fa-mobile-alt', title: 'Responsive', description: 'You don\'t need to pay for different devices designs, projects includes mocks that can perfectly work on distinct devices.' },
+        { icon: 'fab fa-wordpress-simple', title: 'Integrations', description: 'Take your ideas and integrates it with your current CMS.' },
         { icon: 'fas fa-users', title: 'Workshops', description: 'Different topics to help your team to improve its technical skills.' },
       ],
     }
