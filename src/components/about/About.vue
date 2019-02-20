@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-desktop">
         <div class="column">
-          <figure class="image is-3by4">
+          <figure class="image">
             <img :src="image"/>
           </figure>
         </div>
@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import Photo from '../../assets/images/photo.png'
+import Photo from '../../assets/images/coding-time.jpg'
 // TODO: create image for landing page
 
 export default {
@@ -85,4 +85,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img {
+  transform: scaleX(-1);
+  border-radius: 5px;
+  opacity: 0.7;
+}
 </style>
