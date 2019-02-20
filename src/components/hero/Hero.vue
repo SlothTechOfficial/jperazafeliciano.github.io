@@ -19,11 +19,11 @@
       </p>
       <div class="field is-grouped is-grouped-centered">
         <div class="buttons">
-          <a class="button is-rounded is-dark">
-            Resume
-          </a>
-          <a class="button is-rounded is-link" href="#contact" v-smooth-scroll>
-            Contact
+          <a class="button is-rounded is-link">
+            <span class="icon is-small">
+              <i class="fas fa-file-download" />
+            </span>
+            <span>Resume</span>
           </a>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default {
   data: function() {
     return {
       userName: 'Jonathan Peraza Feliciano',
-      description: 'I am a Full-Stack Software Engineer with experience for over 6 years. My expertise is to create and design Websites, Apps, Templates and more ...',
+      description: 'Full-Stack Software Engineer with experience for over 6 years. My expertise is to create and design Websites, Apps, Templates and more ...',
       bgImage: HeroBackground,
     }
   }

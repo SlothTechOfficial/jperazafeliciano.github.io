@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#"> <!-- TODO: add resume link -->
+      <a class="navbar-item is-uppercase" href="#"> <!-- TODO: add resume link -->
         {{displayName}}
       </a>
 

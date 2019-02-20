@@ -12,11 +12,11 @@
           </p>
 
           <p class="has-text-left">
-            Started as competitive programmer on 2009, I'm focused on improve my technical skills. I had the opportunity to start my career as <b>Software Engineer</b> with web technologies such as Javascript and Bash scripting, as well as languages like C++ and Python.
+            Started as a competitive programmer on 2009, I’m focused on improving my technical skills. I had the opportunity to start my career as Software Engineer with web technologies such as Javascript and Bash scripting, as well as languages like C++ and Python.
           </p>
 
           <p class="has-text-left">
-            Currently my main technologies are Javascript based, but I can easily adapt to any kind of programming language or project.
+            Currently my main technologies are Javascript based, but I can easily adapt to any kind of programming languages or projects.
           </p>
         </div>
 

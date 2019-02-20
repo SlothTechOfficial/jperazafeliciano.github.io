@@ -8,37 +8,21 @@
           </figure>
         </div>
         <div class="column">
-          <h1 class="title">About Me</h1>
-          <h3 class="subtitle">{{title}}</h3>
-          <p>
+          <h1 class="title has-text-centered">About Me</h1>
+          <h3 class="subtitle has-text-centered">{{title}}</h3>
+          <p class="has-text-centered">
+            {{personalDescription}}
+          </p>
+          <p class="has-text-centered">
             {{quote}}
           </p>
-          <hr />
-          <div class="columns is-desktop">
-            <div class="column">
-              <b>Name: </b> {{userName}}
-            </div>
-            <div class="column">
-              <b>Email: </b> <a :href="mailLink">{{email}}</a>
-            </div>
-          </div>
-
-          <div class="columns is-desktop">
-            <div class="column">
-              <b>Age: </b> {{age}}
-            </div>
-            <div class="column">
-              <b>From: </b> {{location}}
-            </div>
-          </div>
-
-          <div class="columns is-desktop">
-            <div class="column">
-              <b>LinkedIn: </b> <a :href="linkedinLink">{{linkedin}}</a>
-            </div>
-            <div class="column">
-              <b>Github: </b> <a :href="githubLink">{{github}}</a>
-            </div>
+          <div class="field is-grouped is-grouped-centered">
+            <a class="button is-rounded is-link" :href="paypalMeLink" target="_blank">
+              <span class="icon is-small">
+                <i class="fab fa-paypal" />
+              </span>
+              <span>Support me</span>
+            </a>
           </div>
         </div>
       </div>
@@ -55,26 +39,17 @@ export default {
   data: function() {
     return {
       image: Photo,
-      title: 'I am a Full-Stack Software Engineer',
+      title: 'Full-Stack Software Engineer',
       userName: 'Jonathan Peraza Feliciano',
-      email: 'jperazafeliciano@gmail.com',
-      location: 'Cancún, Quintana Roo, México',
+      personalDescription: 'Mexican Developer born and raised in Cancún, Q. Roo, enjoys to play videogames, used to play soccer pero me chingué la rodilla.',
       linkedin: 'jpfeliciano',
       github: 'yoniihdc',
-      quote: 'Enjoys solving logical and mathematical problems using algorithms and learning about new development technologies and frameworks.',
+      quote: 'Enjoys solving logical and mathematical problems using algorithms and learning about new development technologies and frameworks I spend some time mentoring students for competitive programming contests such as Olimpiada Mexicana de Informática (OMI) and ACM-ICPC and currently I\'m a volunteer at the omegaUp platform which is an online judge for this kind of contests.',
       year: 1991,
+      paypalMeLink: 'https://www.paypal.me/JPerazaFeliciano',
     }
   },
   computed: {
-    mailLink: function() {
-      return `mailto:${this.email}`
-    },
-    githubLink: function() {
-      return `https://github.com/${this.github}`
-    },
-    linkedinLink: function() {
-      return `https://www.linkedin.com/in/${this.linkedin}`
-    },
     age: function() {
       const currentYear = new Date().getFullYear();
 

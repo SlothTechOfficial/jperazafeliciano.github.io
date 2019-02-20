@@ -54,4 +54,8 @@ export default {
     color: white !important;
   }
 }
+
+p {
+  padding-bottom: 10px;
+}
 </style>
