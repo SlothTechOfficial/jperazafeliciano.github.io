@@ -1,20 +1,28 @@
 <template>
-<section class="hero is-primary-color is-fullheight" id="home">
+<section
+  class="hero is-primary-color is-fullheight"
+  id="home"
+  :style="{
+    backgroundImage: `linear-gradient(#3f51b5, rgba(63, 81, 181, 0.35)), url(${bgImage})`
+  }"
+>
   <div class="hero-body">
     <div class="container">
-      <p class="title">
+      <p class="title has-text-centered">
         {{userName}}
       </p>
-      <p class="subtitle">
+      <p class="subtitle has-text-centered">
         {{description}}
       </p>
-      <div class="buttons">
-        <a class="button is-rounded is-dark">
-          Resume
-        </a>
-        <a class="button is-rounded is-link" href="#contact">
-          Contact
-        </a>
+      <div class="field is-grouped is-grouped-centered">
+        <div class="buttons">
+          <a class="button is-rounded is-dark">
+            Resume
+          </a>
+          <a class="button is-rounded is-link" href="#contact">
+            Contact
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -22,17 +30,27 @@
 </template>
 
 <script>
+import HeroBackground from '../../assets/images/image.png'
 export default {
   data: function() {
     return {
       userName: 'Jonathan Peraza Feliciano',
       description: 'I am a Full-Stack Software Engineer with experience for over 6 years. My expertise is to create and design Websites, Apps, Templates and more ...',
+      bgImage: HeroBackground,
     }
   }
 }
 </script>
 
-<style lang="sass">
+<style lang="scss" scoped>
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+  .hero-body {
+    align-items: flex-end;
+  }
+}
 </style>
 
