@@ -14,19 +14,19 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="#home">
+        <a class="navbar-item" href="#home" v-smooth-scroll>
           Home
         </a>
 
-        <a class="navbar-item" href="#about">
+        <a class="navbar-item" href="#about" v-smooth-scroll>
           About
         </a>
 
-        <a class="navbar-item" href="#experience">
+        <a class="navbar-item" href="#experience" v-smooth-scroll>
           Experience
         </a>
 
-        <a class="navbar-item" href="#services">
+        <a class="navbar-item" href="#services" v-smooth-scroll>
           Services
         </a>
 
@@ -39,7 +39,7 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-link is-rounded" href="#contact">
+            <a class="button is-link is-rounded" href="#contact" v-smooth-scroll>
               Contact
             </a>
           </div>

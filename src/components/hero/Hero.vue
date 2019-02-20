@@ -22,7 +22,7 @@
           <a class="button is-rounded is-dark">
             Resume
           </a>
-          <a class="button is-rounded is-link" href="#contact">
+          <a class="button is-rounded is-link" href="#contact" v-smooth-scroll>
             Contact
           </a>
         </div>

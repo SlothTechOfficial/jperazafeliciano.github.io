@@ -46,6 +46,7 @@ export default {
     width: 100%;
   }
 }
+
 .is-primary-color {
   background-color: #1a4ea3 !important;
   
