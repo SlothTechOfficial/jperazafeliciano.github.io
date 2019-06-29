@@ -39,7 +39,7 @@ import CVFile from '../../assets/docs/EN_resume_cv.pdf'
 export default {
   data: function() {
     return {
-      userName: 'Jonathan Peraza Feliciano',
+      userName: 'Erick Peraza Feliciano',
       description: 'Full-Stack Software Engineer with experience for over 6 years. My expertise is to create and design Websites, Apps, Templates and more ...',
       bgImage: HeroBackground,
       resumeLink: CVFile,
